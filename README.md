@@ -1,4 +1,4 @@
-# orange
-Clateriano - Centro Universitário
+# Orange Technology
+# Clateriano - Centro Universitário
 Ivson Galdino Borges
-Portfólio 1 - Interface Humano Computador e Programação Para Web
+# Portfólio 1 - Interface Humano Computador e Programação Para Web
