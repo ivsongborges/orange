@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+html,body{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+}
+
+.logo{
+    width: 50%;
+}
+
+.menu{
+    width: 50%;
+    text-align: right;
+    padding-top: 30px;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    border-radius: 100% 0% 0% 0%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 550px;
+    height: 450px;
+    background-color: #ff7c00;
+}
+.extraspages{
+    border-radius: 100% 0% 0% 0%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 250px;
+    height: 150px;
+    background-color: #ff7c00;
+}
+.fechadura img{
+    position: absolute;
+    bottom: 20px;
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    left: 40%;
+}
+
+.fechadurapages img{
+    position: absolute;
+    bottom: 20px;
+    max-width: 80px;
+    max-height: 80px;
+    width: auto;
+    height: auto;
+    left: 40%;
+}
+.social{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+
+.socialpages{
+    position: absolute;
+    right: 15px;
+    top: 5px;
+}
+
+.social img{
+    display: block;
+    width: 30px;
+    margin: 10px 0;
+}
+
+.socialpages img{
+    display: block;
+    width: 40px;
+    margin: 10px 0;
+}
+.texto{
+    position: relative;
+    margin-top: 100px;
+}
+
+.texto h1{
+    position: relative;
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.texto h3{
+    position: relative;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.texto h4{
+    position: relative;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.texto p{
+    margin: 20px 0;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 800px;
+}
+
+.textopages{
+    position: relative;
+    margin-top: 100px;
+}
+
+.lista{
+    position: relative;
+    margin-left: 20px;
+}
+
+.textopages h1{
+    position: relative;
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.textopages{
+    text-align: justify;
+    margin: 20px 0;
+    color: black;
+    font-size: 12px;
+    max-width: 800px;
+    line-height: 2;
+}
+
+.texto button{
+    margin: 20px 0;
+    border: 0;
+    background-color: #ff7c00;
+    color: antiquewhite;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+}
+
